@@ -179,10 +179,7 @@ document.getElementById('enterBtn').addEventListener('click', () => {
   bgMusic.volume = 0.8;
   bgMusic.play().catch(() => {});
 
-  // Stop after 20 seconds
-  setTimeout(() => {
-    bgMusic.pause();
-  }, 20000);
+
 
   window.scrollTo({ top: innerHeight, behavior: 'smooth' });
 });
@@ -259,3 +256,4 @@ renderWishes();
 </body>
 
 </html>
+
